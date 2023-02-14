@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+/*header*/
+header{
+  position: fixed;
+  top: 0px;
+  left:0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 5px 10px 18px #888888;
+ z-index: 100; /*Sets the stack order of the element*/
+}
+
+
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  margin: auto;
+  
+  width: 100%;
+}
+  
+
+.nav .nav-item{
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(98, 136, 158);
+
+}  
+
+.nav .nav-link:hover,
+.nav i:hover,
+.nav .nav-link.active
+.nav i.active{
+  color: black;
+  font-size: 120%;
+}
+.nav-item a{
+  text-decoration: none;
+  color: #000000;
+
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(250, 247, 247);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.product-box{
+    
+  position: relative;
+ 
+
+}
+
+
+.product-img{
+ 
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  
+
+}
+.product-title{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  
+
+}
